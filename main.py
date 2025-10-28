@@ -15,6 +15,12 @@ def home():
                 height="800" 
                 style="border:none;">
             </iframe>
+            <iframe 
+                src="https://limitlesscnc.ai/careers/#open_roles" 
+                width="100%" 
+                height="800" 
+                style="border:none;">
+            </iframe>
 
         </body>
     </html>
