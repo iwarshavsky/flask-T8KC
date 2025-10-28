@@ -6,10 +6,15 @@ app = Flask(__name__)
 def home():
     return """
     <html>
-        <head><title>Flask HTML Example</title></head>
-        <body>
-            <h1>Hello, world!</h1>
-            <p>This HTML was returned directly as a string.</p>
+        <head><title>Job Page</title></head>
+        <body style="margin:0; padding:0;">
+            <h1>ImagenAI Job Posting</h1>
+            <iframe 
+                src="https://www.comeet.com/jobs/imagen-ai/78.00F" 
+                width="100%" 
+                height="800" 
+                style="border:none;">
+            </iframe>
         </body>
     </html>
     """
