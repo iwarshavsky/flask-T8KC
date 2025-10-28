@@ -1,12 +1,18 @@
-from flask import Flask, jsonify
-import os
+from flask import Flask
 
 app = Flask(__name__)
 
-
-@app.route('/')
-def index():
-    return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
+@app.route("/")
+def home():
+    return """
+    <html>
+        <head><title>Flask HTML Example</title></head>
+        <body>
+            <h1>Hello, world!</h1>
+            <p>This HTML was returned directly as a string.</p>
+        </body>
+    </html>
+    """
 
 
 if __name__ == '__main__':
